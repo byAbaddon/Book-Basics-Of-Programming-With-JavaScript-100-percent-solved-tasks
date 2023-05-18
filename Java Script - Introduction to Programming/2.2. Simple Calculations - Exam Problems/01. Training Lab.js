@@ -1,3 +1,7 @@
+([width, len]) => ((width * 100 / 120) | 0) * (((len * 100) - 100) / 70 | 0) - 3
+
+//------------------------------------(2)------------------------------
+
 function inputHall([width, len]) {
   let rows = Math.trunc(width * 100 / 120)
   let desk = Math.trunc(((len * 100) - 100) / 70)
