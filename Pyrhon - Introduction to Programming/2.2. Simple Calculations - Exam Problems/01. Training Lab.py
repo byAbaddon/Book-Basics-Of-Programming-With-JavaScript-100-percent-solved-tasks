@@ -1,3 +1,6 @@
+print((float(input()) // 1.2) * ((float(input()) - 1) // 0.7) - 3)
+
+#-------------------------------------(2)-----------------------
 from math import trunc
 
 width, leng =float(input()), float(input())
